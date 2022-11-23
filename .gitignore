@@ -1,0 +1,51 @@
+*.class
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.gradle
+
+*.lck
+*.1
+*.2
+*.log
+.mine*
+/externalgames
+NVIDIA
+minecraft-exported-crash-info*
+
+# gradle build
+/build/
+/GMCL/build/
+/GMCLCore/build/
+/GMCLTransformerDiscoveryService/build/
+/minecraft/libraries/GMCLTransformerDiscoveryService/build/
+
+# idea
+.idea
+/out/
+/GMCL/out/
+/GMCLCore/out/
+/minecraft/libraries/GMCLTransformerDiscoveryService/out/
+
+# eclipse
+/bin/
+/GMCL/bin/
+/GMCLCore/bin/
+/minecraft/libraries/GMCLTransformerDiscoveryService/bin/
+.classpath
+.project
+.settings
+
+# netbeans
+.nb-gradle
+
+*.exe
+!/GMCL/src/main/resources/assets/GMCLauncher.exe
+
+# macos
+.DS_Store
+
+# test
+/gmcl.json
+/.gmcl.json
